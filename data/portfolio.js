@@ -1,17 +1,17 @@
 const about = {
   // each of these properties is optional - they can be left empty or deleted
   // each element in the `description` array will be treated as a separate paragraph
-  name: 'John Doe',
+  name: 'Pich Tran',
   greetingEmoji: '👋',
-  role: 'Software Engineer',
-  company: 'Acme Labs',
+  role: 'Blockchain Engineer',
+  company: 'Allin Labs',
   description: [
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'I am a Blockchain Engineer, adept at crafting robust smart contracts with Rust and employing Move for dynamic contract functionality. My expertise lies in architecting DeFi solutions that decentralize and democratize financial services, bypassing conventional financial gateways.   ',
   ],
   resume: 'https://example.com',
   social: {
-    github: 'https://github.com',
-    linkedin: 'https://linkedin.com',
+    github: 'https://github.com/pichtranst123',
+    linkedin: 'https://www.linkedin.com/in/alexandros-de-ares/',
   },
 }
 
@@ -20,68 +20,46 @@ const projects = [
   // if the array is left empty, the "Projects" section won't render
   // each element in each `description` array will be treated as a separate paragraph
   {
-    thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 1',
+    thumbnail: 'images/trustcorescreenshot.png',
+    name: 'Trust Score',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'The Trust Score feature provides a reliable social network, decentralized identity, and a fair DAO model to establish trustworthiness and bring value to the NEAR ecosystem.',
     ],
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://example.com',
+    stack: ['Rust', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com/pichtranst123/trust-score-v2',
+    livePreview: 'https://devfolio.co/projects/trust-score-0527',
   },
   {
-    thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 2',
+    thumbnail: 'images/fastui-bos.png',
+    name: 'FastUI',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'FastUI is BOS marketplace build on BOS Near protocol, providing a nice ui and examples bos app, interated smartcontract Near Rust',
     ],
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://example.com',
-  },
-  {
-    thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 3',
-    description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    ],
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://example.com',
-  },
-  {
-    thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 4',
-    description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    ],
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://example.com',
-  },
+    stack: ['Rust', 'Javascript', 'React'],
+    sourceCode: 'https://github.com/pichtranst123/fast-ui-smartcontract',
+    livePreview: 'https://near.org/fastui.near/widget/FastUI',
+  }
 ]
 
 const skills = [
   // skills can be added or removed
   // if the array is left empty, the "Skills" section won't render
-  'HTML',
-  'CSS',
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  '.NET Core',
+  'Rust',
+  'Move',
   'Git',
   'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Azure',
+  'Postgresql',
 ]
 
 const contact = {
   // the `email` property is optional - it can be left empty or deleted
   // if so, the "Contact" section won't render
-  email: 'johndoe@email.com',
+  email: 'hoangpichgoodkid@email.com',
 }
 
 export { about, projects, skills, contact }
