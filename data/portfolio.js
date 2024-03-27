@@ -6,7 +6,7 @@ const about = {
   role: 'Blockchain Engineer',
   company: 'Allin Labs',
   description: [
-    'I am a Blockchain Engineer, adept at crafting robust smart contracts with Rust and employing Move for dynamic contract functionality. My expertise lies in architecting DeFi solutions that decentralize and democratize financial services, bypassing conventional financial gateways.   ',
+    'Skilled in developing resilient smart contracts using Rust and leveraging Move for adaptable contract capabilities, I excel in designing DeFi solutions that decentralize and democratize financial services, circumventing traditional financial intermediaries.',
   ],
   resume: 'https://example.com',
   social: {
